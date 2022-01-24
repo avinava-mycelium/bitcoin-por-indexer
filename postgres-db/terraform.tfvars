@@ -1,0 +1,9 @@
+project_id = "avian-direction-235610"
+region = "us-central1"
+#zone  = ["us-central1-a", "us-central1-f"]
+master_user_name = "rpcuser"
+master_user_password = "rpcpassword"
+instance_name = "bitcoin-por-indexer"
+db_name = "bitcoin-por-indexer"
+#machine_type = "db-custom-2-13312"
+machine_type = "db-custom-8-53248"

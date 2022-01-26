@@ -37,7 +37,7 @@ variable "master_user_password" {
 variable "postgres_version" {
   description = "The engine version of the database, e.g. `POSTGRES_14_0`. See https://cloud.google.com/sql/docs/features for supported versions."
   type        = string
-  default     = "POSTGRES_14_0"
+  default     = "POSTGRES_14"
 }
 
 variable "machine_type" {

@@ -94,14 +94,14 @@ module "postgres" {
 
   # Set test flags
   # Cloud SQL will complain if they're not applicable to the engine
-  # database_flags = [
-  #   {
-  #     name  = "autovacuum"
-  #     value = true
-  #   },
-  # ]
+  database_flags = [
+     {
+       name  = "autovacuum"
+       value = "on"
+     },
+   ]
 
   custom_labels = {
-    name = "postgres-bitcoin-por-indexer"
+    name = "postgres-bitcoin-por-indexer-db"
   }
 }
